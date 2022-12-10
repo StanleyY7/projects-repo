@@ -139,7 +139,7 @@ nav .nav-container {
   gap: 5rem;
 }
 
-.section-grid_content, .skills-content_container {
+.section-grid_content {
   padding: 3rem;
   background-color: #e7e8e9;
   border-radius: 4rem;
@@ -187,18 +187,50 @@ nav .nav-container {
   opacity: 100%;
 }
 
-/* skills */
-.skills-content {
-  padding: 1rem;
+/* Projects */
+.project-content, .skills-content {
+  padding: 3rem;
   background-color: #ffffff;
 }
 
-.skills-content_container {
-  margin-top: 2rem;
+#projects {
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
+.projects-content_container, .skills-content_container {
+  border-radius: 4rem;
+  background-color: #e7e8e9;
+}
+
+.projects-content_container_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+/* Skills */
 #skills {
+  padding: 2rem;
+  font-size: 2rem;
   text-align: center;
+}
+
+.skills-content_container_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.skills-content_img-col_img {
+  opacity: 65%;
+  transition: 0.3s;
+}
+
+.skills-content_img-col_img:hover {
+  opacity: 100%;
+  transform: scale(1.07);
 }
 
 /* footer */
@@ -206,4 +238,9 @@ footer {
   text-align: center;
   align-items: center;
   padding: 1rem 0rem;
+}
+
+.footer-img {
+  height: 7%;
+  width: 7%;
 }/*# sourceMappingURL=styles.css.map */
