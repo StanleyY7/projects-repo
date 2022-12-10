@@ -196,29 +196,6 @@ nav .nav-container {
   background-color: $theme-color-t;
 }
 
-#projects {
-  padding: 2rem;
-  font-size: 2rem;
-  text-align: center;
-}
-
-.projects-content_container {
-  border-radius: 4rem;
-  background-color: #e7e8e9;
-}
-
-.projects-content_container_grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0.5rem;
-}
-
-.projects-content_container_grid-col {
-  border-top: 2px solid $theme-color-p;
-  border-bottom: 2px solid $theme-color-p;
-  text-align: center;
-}
-
 /* Skills */
 
 .skills-content {

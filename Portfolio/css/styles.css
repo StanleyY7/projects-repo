@@ -188,7 +188,8 @@ nav .nav-container {
 }
 
 /* Projects */
-.project-content, .skills-content {
+.project-content,
+.skills-content {
   padding: 3rem;
   background-color: #ffffff;
 }
@@ -199,7 +200,8 @@ nav .nav-container {
   text-align: center;
 }
 
-.projects-content_container, .skills-content_container {
+.projects-content_container,
+.skills-content_container {
   border-radius: 4rem;
   background-color: #e7e8e9;
 }
@@ -243,4 +245,4 @@ footer {
 .footer-img {
   height: 7%;
   width: 7%;
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
