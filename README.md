@@ -3,7 +3,11 @@
 ## Description
 A portfolio website that has an About, Skills and Projects section. This project solidifies and expands on existing knowledge around HTML, CSS, SCSS and JS.
 
+![image](https://user-images.githubusercontent.com/119549394/206969896-f860501a-3912-4753-b827-958511de1465.png)
+
 ## Goals
+
+To make a functioning and responsive portfolio website using HTML, CSS/SCSS and JS.
 
 ## Requirements
 
@@ -30,6 +34,3 @@ Your Portfolio should have the following section:
 - CSS
 - SCSS
 - JS
-- 
-
-## Issues Encountered/Addressed
