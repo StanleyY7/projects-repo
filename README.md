@@ -3,7 +3,7 @@
 ## Description
 A portfolio website that has an About, Skills and Projects section. This project solidifies and expands on existing knowledge around HTML, CSS, SCSS and JS.
 
-![image](https://user-images.githubusercontent.com/119549394/206969896-f860501a-3912-4753-b827-958511de1465.png)
+![image](https://user-images.githubusercontent.com/119549394/206970159-a49c75c8-576c-4ec7-a1be-d76889ff4105.png)
 
 ## Goals
 
