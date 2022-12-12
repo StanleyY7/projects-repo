@@ -1,5 +1,5 @@
 function copyright() {
-  document.write("Made by Stanley &copy" + new Date().getFullYear());
+  document.write("&copy" + new Date().getFullYear() + " Stanley Yu ");
 }
 
 window.onload = copyright();
