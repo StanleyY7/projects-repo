@@ -7,14 +7,6 @@ A portfolio website that has an About, Skills and Projects section. This project
 
 ## Requirements
 
-## Tech Stack
-- HTML
-- CSS
-- SCSS
-- JS
-
-## Implementation
-
 ### MVP
 
 - You need to have it as a public repository on GitHub
@@ -32,5 +24,12 @@ Your Portfolio should have the following section:
 - A Tech stacks/skills page/section with all the techs you have learned during the course
 - A Project page/section with all your projects (use placeholder images and text at the beginning to render your website as it would with actual projects) - each project should have a little description, a link to a live version and a link to the matching GitHub Repo (using a README.md at the root of the repo to include how you went about coding for that project)
 - A Contact page/section with your email, GitHub profile link, LinkedIn profile link
+
+## Tech Stack
+- HTML
+- CSS
+- SCSS
+- JS
+- 
 
 ## Issues Encountered/Addressed
