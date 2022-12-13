@@ -12,18 +12,18 @@
     <main>
       <header>
         <nav>
-          <div class="nav-container">
-            <div class="nav-container_logo">
+          <div class="nav nav-container">
+            <div class="nav nav-container__logo">
               <h2><a href="index.html">:stanley</a></h2>
             </div>
 
-            <div class="nav-links">
+            <div class="nav nav-container__links">
               <ul>
                 <li>
                   <a href="#about">About</a>
                 </li>
                 <li>
-                  <a href="#proid">Projects</a>
+                  <a href="#projects">Projects</a>
                 </li>
                 <li>
                   <a href="#skills">Skills</a>
@@ -31,27 +31,21 @@
               </ul>
             </div>
 
-            <div class="hamburger-menu">
-              <div class="bar">
-
-              </div>
+            <div class="nav nav-container__menu--hamburger">
+              <div class="bar"></div>
             </div>
           </div>
         </nav>
 
-        <div class="header-content">
-          <div class="header-content_grid">
-            <div class="header-content_grid-column1">
-              <h1 class="header-content_grid-column1_title">
-                Hey, i'm Stanley
-              </h1>
-              <p class="header-content_grid-column1_text">
-                and I like to make things.
-              </p>
+        <div class="header header__content">
+          <div class="header header__content--grid">
+            <div>
+              <h1 class="cover-heading">Hey, i'm Stanley</h1>
+              <p class="cover-text">and I like to make things.</p>
               <a href="#about" class="contact-btn">contact</a>
             </div>
-            <div class="header-content_grid-column2">
-              <img id="main-image" src="assets/me.png" />
+            <div>
+              <img id="cover-image" src="assets/me.png" />
             </div>
           </div>
         </div>
@@ -59,12 +53,12 @@
     </main>
 
     <section>
-      <article class="section-grid">
-        <div class="section-grid_img">
+      <article class="article article__container">
+        <div class="article article__img-container">
           <img id="self-portrait" src="assets/me3.png" alt="self-portrait" />
         </div>
 
-        <div class="section-grid_content">
+        <div class="global-content-grid">
           <h2 id="about">About</h2>
           <p>
             I'm Stanley, an aspiring software engineer. I am a driven, positive
@@ -79,24 +73,15 @@
             somewhere or if it's the Summer, I'll be watching the cricket on my
             couch or fishing near a jetty.
           </p>
-          <div class="section-grid_content-social-container">
+          <div class="global-content-grid-social-container">
             <a href="https://www.linkedin.com/in/stanleyyu-ccs/" target="_blank"
-              ><img
-                class="icon"
-                src="https://img.icons8.com/ios-filled/512/linkedin-circled--v1.png"
-              />
+              ><img class="icon" src="assets/linkedin.png" />
             </a>
             <a href="https://github.com/StanleyY7" target="_blank">
-              <img
-                class="icon"
-                src="https://img.icons8.com/ios-filled/512/github.png"
-              />
+              <img class="icon" src="assets/github.png" />
             </a>
             <a href="mailto:stanleyyu7@gmail.com" target="_blank">
-              <img
-                class="icon"
-                src="https://img.icons8.com/ios-filled/512/circled-envelope.png"
-              />
+              <img class="icon" src="assets/mailicon.png" />
             </a>
           </div>
         </div>
@@ -104,89 +89,105 @@
     </section>
 
     <section>
-      <article class="pro-content">
-        <div class="pro-content_container">
-          <h2 id="proid">Projects</h2>
-          <div class="pro-content_container_grid">
-            <div class="pro-content_container_grid-col">
-              <div class="pro-content_container_grid-col-content">
-              <h3>E-Shop</h3>
-              <p>This is an exciting project which I am looking forward to working on in the future of the _nology program. This project should utilise my current skills and knowledge across HTML5, CSS3 and JS.</p>
-              <div class="section-grid_content-social-container2">
-                <a href="https://github.com/StanleyY7/Eshop" target="_blank">
-                  <img
-                    class="icon"
-                    src="assets/giticonwhite.png"
-                  />
-                </a>
-                <a href="https://github.com/StanleyY7/googlebooks" target="_blank">
-                  <img
-                    class="icon"
-                    src="assets/link.png"
-                  />
-                </a>
+      <aside class="projects">
+        <div class="projects__container">
+          <h2 id="projects-heading">Projects</h2>
+          <div class="projects__grid">
+            <div class="projects__grid--col">
+              <div class="projects__grid--col-content">
+                <h3>E-Shop</h3>
+                <p>
+                  This is an exciting project which I am looking forward to
+                  working on in the future of the _nology program. This project
+                  should utilise my current skills and knowledge across HTML5,
+                  CSS3 and JS.
+                </p>
+                <div class="global-content-grid-social-container2">
+                  <a href="https://github.com/StanleyY7/Eshop" target="_blank">
+                    <img class="icon" src="assets/giticonwhite.png" />
+                  </a>
+                  <a href="404.html" target="_blank">
+                    <img class="icon" src="assets/link.png" />
+                  </a>
+                </div>
               </div>
+              <div
+                class="projects__img-container"
+                id="projects__img-container_img1"
+              ></div>
             </div>
-            <div class="pro-content_container_grid-col-img-container" id="pro-content_container_grid-col-img-container_img1">
-            </div>
-            </div>
-            <div class="pro-content_container_grid-col">
-              <div class="pro-content_container_grid-col-content">
-              <h3>FakeOS</h3>
-              <p>This is an exciting project which I am looking forward to working on in the future of the _nology program. This project should utilise my current skills and knowledge across HTML5, CSS3 and JS.</p>
-              <div class="section-grid_content-social-container2">
-                <a href="https://github.com/StanleyY7/fakeos" target="_blank">
-                  <img
-                    class="icon"
-                    src="assets/giticonwhite.png"
-                  />
-                </a>
-                <a href="https://github.com/StanleyY7/googlebooks" target="_blank">
-                  <img
-                    class="icon"
-                    src="assets/link.png"
-                  />
-                </a>
+            <div class="projects__grid--col">
+              <div class="projects__grid--col-content">
+                <h3>FakeOS</h3>
+                <p>
+                  This is an exciting project which I am looking forward to
+                  working on in the future of the _nology program. This project
+                  should utilise my current skills and knowledge across HTML5,
+                  CSS3 and JS.
+                </p>
+                <div class="global-content-grid-social-container2">
+                  <a href="https://github.com/StanleyY7/fakeos" target="_blank">
+                    <img class="icon" src="assets/giticonwhite.png" />
+                  </a>
+                  <a href="404.html" target="_blank">
+                    <img class="icon" src="assets/link.png" />
+                  </a>
+                </div>
               </div>
+              <div
+                class="projects__img-container"
+                id="projects__img-container_img2"
+              ></div>
             </div>
-            <div class="pro-content_container_grid-col-img-container" id="pro-content_container_grid-col-img-container_img2">
-            </div>
-            </div>
-            <div class="pro-content_container_grid-col">
-              <div class="pro-content_container_grid-col-content">
-              <h3>Google Books</h3>
-              <p>This is an exciting project which I am looking forward to working on in the future of the _nology program. This project should utilise my current skills and knowledge across HTML5, CSS3 and JS.</p>
-              <div class="section-grid_content-social-container2">
-                <a href="https://github.com/StanleyY7/googlebooks" target="_blank">
-                  <img
-                    class="icon"
-                    src="assets/giticonwhite.png"
-                  />
-                </a>
-                <a href="https://github.com/StanleyY7/googlebooks" target="_blank">
-                  <img
-                    class="icon"
-                    src="assets/link.png"
-                  />
-                </a>
+            <div class="projects__grid--col">
+              <div class="projects__grid--col-content">
+                <h3>Google Books</h3>
+                <p>
+                  This is an exciting project which I am looking forward to
+                  working on in the future of the _nology program. This project
+                  should utilise my current skills and knowledge across HTML5,
+                  CSS3 and JS.
+                </p>
+                <div class="global-content-grid-social-container2">
+                  <a
+                    href="https://github.com/StanleyY7/googlebooks"
+                    target="_blank"
+                  >
+                    <img class="icon" src="assets/giticonwhite.png" />
+                  </a>
+                  <a href="404.html" target="_blank">
+                    <img class="icon" src="assets/link.png" />
+                  </a>
+                </div>
               </div>
+              <div
+                class="projects__img-container"
+                id="projects__img-container_img3"
+              ></div>
             </div>
-            <div class="pro-content_container_grid-col-img-container" id="pro-content_container_grid-col-img-container_img3">
-            </div>
-            </div>
+          </div>
         </div>
-      </article>
+      </aside>
     </section>
 
     <section>
-      <article class="skills-content">
-        <div class="skills-content_container">
-          <h2 id="skills">Skills_</h2>
-          <div class="skills-content_container_grid">
-            <div class="skills-content_img-col"><img class="skills-content_img-col_img"src="assets/html5.png"></div>
-          <div class="skills-content_img-col"><img class="skills-content_img-col_img" src="assets/css.png"></div>
-          <div class="skills-content_img-col"><img class="skills-content_img-col_img"src="assets/scss.png"></div>
-          <div class="skills-content_img-col"><img class="skills-content_img-col_img"src="assets/js.png"></div>
+      <article class="skills">
+        <div class="skills__container">
+          <h2 id="skills-heading">Skills<em>_</em></h2>
+          <div class="skills__grid">
+            <div class="skills__grid--col">
+              <img class="skills-grid-img" src="assets/html5.png" />
+            </div>
+            <div class="skills__grid--col">
+              <img class="skills-grid-img" src="assets/css.png" />
+            </div>
+            <div class="skills__grid--col">
+              <img class="skills-grid-img" src="assets/scss.png" />
+            </div>
+            <div class="skills__grid--col">
+              <img class="skills-grid-img" src="assets/js.png" />
+            </div>
+          </div>
         </div>
       </article>
     </section>
@@ -197,6 +198,5 @@
         <script src="js/script.js"></script>
       </div>
     </footer>
-
   </body>
 </html>

@@ -1,6 +1,8 @@
-const hamburger_menu = document.querySelector(".hamburger-menu");
+const hamburger_menu = document.querySelector(
+  ".nav-container__menu--hamburger"
+);
 const navbar = document.querySelector("header nav");
-const links = document.querySelectorAll(".nav-links a");
+const links = document.querySelectorAll(".nav-container__links a");
 
 function copyright() {
   document.write("&copy" + new Date().getFullYear() + " Stanley Yu ");
